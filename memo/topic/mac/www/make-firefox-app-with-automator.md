@@ -8,11 +8,11 @@
 ```shell-script
 $ /Applications/Firefox.app/Contents/MacOS/firefox -ProfileManager
 ```
-などとして ~/Library/Application\ Support/Firefox/Profiles/ に mail, prog, tmp
-というプロファイルがを作ったする.
+などとして `~/Library/Application\ Support/Firefox/Profiles/` に `mail`, `prog`, `tmp`
+というプロファイルを作ったとする.
 
 #### 2.
-以下の様な ~/bin.darwin/firefox-trampoline を用意しておく.
+以下の様な `~/bin.darwin/firefox-trampoline` を用意しておく.
 
 ```shell-script
 #! /usr/bin/env bash
@@ -36,13 +36,13 @@ Automator を開く.
 ~/bin.darwin/firefox-trampoline mail
 ```
 
-などと書く. shell は /bin/bash でよい.
+などと書く. shell は `/bin/bash` でよい.
 
 #### 6.
 
 Command-S で保存.
 
-~/bin.local/automator/ 以下に firefox-mail.app などで保存しておいて,
+`~/bin.local/automator/` 以下に `firefox-mail.app` などで保存しておいて,
 
 ```shell-script
 $ (cd /Applications ;  ln -s ~/bin.local/automator/firefox-mail.app )
