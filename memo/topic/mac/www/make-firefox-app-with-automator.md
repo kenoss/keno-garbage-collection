@@ -40,7 +40,7 @@ Automator を開く.
 
 #### 6.
 
-Command-S で保存.
+`Command-S` で保存.
 
 `~/bin.local/automator/` 以下に `firefox-mail.app` などで保存しておいて,
 
